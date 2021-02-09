@@ -161,6 +161,9 @@ footer {
 .button ul li:nth-child(1) a:hover {
     background-color: gold;
 }
-#table{
-    border:1px;
+
+.table {
+    padding: -35% 0 100% 22%;
+    margin: -35% 0 100% 22%;
+    color: rebeccapurple;
 }
