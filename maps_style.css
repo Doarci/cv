@@ -1,71 +1,11 @@
-header {
-    text-align: center;
-}
-
-body {
-    min-height: 100vh;
-    padding-bottom: 10px;
-    position: relative;
-}
-
-h1 {
-    color: green;
-}
-
-img {
-    width: 300px;
-}
-
-h2 {
-    text-decoration-line: underline;
-}
-
-.general {
-    margin: 0 0 15px 25px;
-    font-size: 20px;
-    font-style: normal;
-}
-
-.line {
-    height: 60%;
-    border-left: 3px red solid;
-    position: absolute;
-    left: 22%;
-    animation-name: rainbow;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-@keyframes rainbow {
-    0% {
-        left: 20%;
-        background-color: black;
-    }
-    100% {
-        left: 22%;
-        opacity: 0.05;
-        background-color: red;
-    }
-}
-
-.line1 {
-    background-color: #fff;
-    border-top: 3px dashed #8c8b8b;
-}
-
-footer {
-    padding: 2%;
-}
-
 .social-menu ul {
     padding: 0;
     margin: 0;
     position: absolute;
     transform: translate(-50%, -50%);
     display: flex;
-    bottom: 0.5%;
     Left: 10%;
+    bottom: 0.5%;
 }
 
 .social-menu ul li {
@@ -115,15 +55,15 @@ footer {
 .social-menu ul li:nth-child(4) a:hover {
     background-color: #e4405f;
 }
-
 .button ul {
     padding: 0;
     margin: 0;
     position: absolute;
     transform: translate(-50%, -50%);
     display: flex;
-    bottom: 0.5%;
     right: 0;
+    bottom:0;
+
 }
 
 .button ul li {
@@ -160,13 +100,4 @@ footer {
 
 .button ul li:nth-child(1) a:hover {
     background-color: gold;
-}
-
-.table {
-    padding: -35% 0 100% 22%;
-    margin: -35% 0 100% 22%;
-    color: rebeccapurple;
-}
-.line1 {
-    border-style: groove;
 }
